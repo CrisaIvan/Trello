@@ -81,7 +81,8 @@ Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate ast
 Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
 
 <h2>Conclusions</h2>
-
-**Inserati aici concluziile pe care le-ati obtinut in urma executarii testelor si introduceti informatii cum ar fi cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc**
-
-[def]: <GET body snip.PNG>
+In total am rulat 17 teste : 3 failed (testare negativă) și 14 teste passed.
+2 teste pentru testare negativa:
+1.	punem intenționat idList greșit pentru a testa dacă sistemul reacționează corespunzător:
+2.	punem intenționat valoarea greșită (1) pentru card number pentru a testa dacă sistemul reacționează corespunzător:
+1 test pentru Testare de performanță: Testul este failed pentru că timpul de răspuns este mai mare de 200ms. Ajustarea timpul la 400ms face ca testul sa fie passed.
