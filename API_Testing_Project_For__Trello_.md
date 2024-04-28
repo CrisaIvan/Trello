@@ -107,7 +107,7 @@ JavaScript Tests (Passed):
 
 - _HTTP method for request:_ PUT
 - _Request description:_ Update a card. Move a Card from TO DO List to DONE List.
-- _Test types / techniques used:_ Functional testing. Prin testele efectuate s-au verificat urmatoarele: numele card-ului este acelasi ("Sign-up for Trello"), cardul a fost mutat in lista DONE. O modalitate de a verificare este sa schimbam, in interiorul testului, "doneListID" cu "todoListID". Vom obtine eroare, ceea ce arata ca acesta a fost intr-adevar mutat.
+- _Test types / techniques used:_ Functional testing. Prin testele efectuate s-au verificat urmatoarele: numele card-ului este acelasi ("Sign-up for Trello"), cardul a fost mutat in lista DONE. O modalitate de a verificare este sa schimbam, in interiorul testului, variabila "doneListID" cu "todoListID". Vom obtine eroare, ceea ce arata ca acesta a fost intr-adevar mutat.
 - _Response status code:_ Status Code 200
 
 Below you can find a picture of the API request from Postman:<br>
@@ -129,7 +129,8 @@ JavaScript Tests (Passed):
 
 Below you can find the execution report that was generated through the Postman collection runner. <br>
 
-**Inserati aici o poza cu raportul de executie din Postman**<br>
+
+![raport de executie](https://github.com/CrisaIvan/Trello/assets/95541889/2b0eb64f-08af-4b1b-be04-788dfb5fec01)
 
 
 <h2>Defects found</h2>
