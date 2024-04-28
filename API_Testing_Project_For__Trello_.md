@@ -45,7 +45,7 @@ JavaScript Tests (Passed):
 - "Status Code is 200"
 - "Board-ul este creat"
 - "Board-ul este privat"
- - "Calendarul este dezactivat"
+- "Calendarul este dezactivat"
    
 ![Create Board- test](https://github.com/CrisaIvan/Trello/assets/95541889/ecb72fc3-69af-463f-8d9e-cca3e89cbee7)
 
@@ -149,6 +149,15 @@ a) doua  teste pentru testare negativă  &#10004;
 - punem intenționat valoarea greșită (1) pentru card number pentru a testa dacă sistemul reacționează corespunzător:
 
 b) 14 teste pentru testare pozitiva &#10004;
-
+- "Status code is 200" a fost rulat fiecare dintre request-urile: Get Board, Create Board, Create TO DO List, Create DONE List, Create Card, Move Card;
+- "Board-ul este creat";
+- "Board-ul este privat";
+- "Calendarul este dezactivat";
+- "Lista TO DO este creata";
+- "Lista DONE este creata";
+- "Card-ul este creat";
+- "Card-ul este mutat";
+- "Timpul de raspuns este mai mic de 400ms".
+  
 c) un test pentru Testare de performanță: &#x274c;
 - Testul este failed pentru că timpul de răspuns este mai mare de 200ms. Ajustarea timpul la 400ms face ca testul sa fie passed.
