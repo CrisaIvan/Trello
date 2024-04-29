@@ -133,14 +133,6 @@ Below you can find the execution report that was generated through the Postman c
 ![raport de executie](https://github.com/CrisaIvan/Trello/assets/95541889/2b0eb64f-08af-4b1b-be04-788dfb5fec01)
 
 
-<h2>Defects found</h2>
-
-The following issues were identified while running the postman tests:<br>
-
-\***\*Inserati aici fie un fisier pdf care sa contina raportarea tuturor bug-urilor, fie le descrieti direct in git
-Bug-urile trebuie sa contina titlu, preconditii, pasi de executie, rezultate asteptate si rezultate actuale.
-Optional, bug-urile pot fi raportate in jira, si apoi puteti pune poze direct din jira**
-
 <h2>Conclusions</h2>
 In total au fost create si executate 17 teste in felul urmator: 
 
