@@ -107,7 +107,7 @@ JavaScript Tests (Passed):
 
 - _HTTP method for request:_ PUT
 - _Request description:_ Update a card. Move a Card from TO DO List to DONE List.
-- _Test types / techniques used:_ Functional testing. Prin testele efectuate s-au verificat urmatoarele: numele card-ului este acelasi ("Sign-up for Trello"), cardul a fost mutat in lista DONE. O modalitate de a verificare este sa schimbam, in interiorul testului, variabila "doneListID" cu "todoListID". Vom obtine eroare, ceea ce arata ca acesta a fost intr-adevar mutat.
+- _Test types / techniques used:_ Functional testing. Prin testele efectuate s-au verificat urmatoarele: numele card-ului este acelasi ("Sign-up for Trello"), cardul a fost mutat in lista DONE. O modalitate de a verificare este sa schimbam, in interiorul testului, variabila "doneListID" cu "todoListID". Vom obtine eroare, ceea ce arata ca acesta a fost intr-adevar mutat; Non-functional testing: Se verifica daca timpul de răspuns este mai mare de 200ms.
 - _Response status code:_ Status Code 200
 
 Below you can find a picture of the API request from Postman:<br>
